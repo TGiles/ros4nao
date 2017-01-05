@@ -117,7 +117,7 @@ echo "Installing robotpkg..."
 wget -q $ROBOTPKG_OPENNAO_BIN_MIRROR/bootstrap.tar.gz
 sudo tar -xf bootstrap.tar.gz -C /
 rm bootstrap.tar.gz
-sudo robotpkg_add $ROBOTPKG_OPENNAO_BIN_MIRROR/pub/pkgin-0.6.4r1.tgz
+sudo robotpkg_add $ROBOTPKG_OPENNAO_BIN_MIRROR/pub/pkgin-0.6.4r2.tgz
 
 # Check if the default robotpkin repository exists
 osname=`lsb_release -si`
